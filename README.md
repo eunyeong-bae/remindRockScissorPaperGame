@@ -1,3 +1,7 @@
+# icon - font awesome 5 react
+# 기존에 만든 형식을 나만의 스타일로 다시 개발함
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
