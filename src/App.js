@@ -7,14 +7,12 @@ import { useEffect, useState } from 'react';
 const choiceHandType = ['rock', 'scissor','paper'];
 
 function App() {
-// 6. 박스 테두리가 결과에 따라 색이 변한다. 
-//     1. 지면 빨간색, 이기면 초록색, 비기면 검정색
-  const [handType, setHandType] = useState('rock'); 
-  const [computerHandType, setComputerHandType] = useState('rock');
+  const [handType, setHandType] = useState(null); 
+  const [computerHandType, setComputerHandType] = useState(null);
   const [isResult, setIsResult] = useState(false);
 
   useEffect(() => {
-    handTypeChange(handType);
+    handTypeChange('rock');
   }, []);
 
   const handTypeChange = (type) => {
